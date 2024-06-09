@@ -1,6 +1,6 @@
 # docker-pybullet
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=plastic)](https://github.com/Osprey-Robotics/docker-pybullet/blob/master/LICENSE.txt)
-[![Docker Image Status](https://github.com/Osprey-Robotics/docker-pybullet/actions/workflows/main.yml/badge.svg/)](https://github.com/Osprey-Robotics/docker-pybullet/actions)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=plastic)](https://github.com/UNF-Robotics/docker-pybullet/blob/master/LICENSE.txt)
+[![Docker Image Status](https://github.com/UNF-Robotics/docker-pybullet/actions/workflows/main.yml/badge.svg/)](https://github.com/UNF-Robotics/docker-pybullet/actions)
 
 Docker image with [pybullet](https://github.com/bulletphysics/bullet3)
 Development Environment for various robotics purposes at UNF, club,
