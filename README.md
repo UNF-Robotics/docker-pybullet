@@ -7,11 +7,11 @@ Development Environment for various robotics purposes at UNF, club,
 research, and development. This container contains the initial
 environment to build and run simulations using pybullet.
 
-[Latest](https://hub.docker.com/r/ospreyrobotics/docker-pybullet/tags)
+[Latest](https://hub.docker.com/r/unfrobotics/docker-pybullet/tags)
 
 ## Docker Pull Command
 ```bash
-docker pull ospreyrobotics/docker-pybullet:latest
+docker pull unfrobotics/docker-pybullet:latest
 ```
 
 ## enable X11 ssh forwarding
@@ -37,5 +37,5 @@ directory `/project/unf-robotics` to internal directory
 ```bash
 docker run --net=host --rm -it --env DISPLAY=$DISPLAY --privileged \
     -v /dev:/dev -v /project/unf-robotics/:/opt/unf-robotics \
-    ospreyrobotics/docker-pybullet:latest
+    unfrobotics/docker-pybullet:latest
 ```
