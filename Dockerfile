@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 	nano \
         pip \
 	python3-numpy \
+	python3-yaml \
 	&& rm -rf /var/lib/apt/lists/*
 
 # install pybullet
